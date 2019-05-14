@@ -1,5 +1,5 @@
 {
-  "name": "loader",
+  "name": "scripts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,23 +10,22 @@
   },
   "author": "katarzyna-dasilva",
   "license": "ISC",
-  "dependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "css-loader": "^2.1.1",
-    "uuid": "^3.3.2"
-  },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "optimize-js-plugin": "0.0.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
   }
 }
